@@ -22,8 +22,8 @@ thresholds = {
 st.title("Water Quality Pollution Predictor")
 st.write("Predict the water pollutants based on Year and Station ID")
 
-year_input = st.number_input("Enter Year", min_value=2022, max_value=2100, value=2022)
-station_id = st.text_input("Enter the Station ID", value='1')
+year_input = st.number_input("Enter Year", min_value=2022, max_value=2100, value=2022 , key="year_input")
+station_id = st.text_input("Enter the Station ID", value='1' , key="station_id")
 #st.write("Model expects these columns:", model_cols)
 
 
